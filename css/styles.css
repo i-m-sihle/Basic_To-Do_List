@@ -49,6 +49,8 @@ li {
     padding: 10px;
     background-color: #fff; /* White task item background */
     border-bottom: 1px solid #ff4081; /* Pink border bottom */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
 }
 
 li:last-child {
@@ -58,4 +60,25 @@ li:last-child {
 .completed {
     text-decoration: line-through;
     color: #888;
+}
+
+
+.deleteButton {
+    background-color: #ff9999; /* Light red background */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.deleteButton:hover {
+    background-color: #ff6666; /* Darker red on hover */
+}
+
+p{
+    color: #ff4081;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
 }
