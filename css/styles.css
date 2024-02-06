@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #fce4ec; /* Light pink background */
     margin: 0;
     padding: 0;
 }
@@ -9,35 +9,35 @@ body {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
+    background-color: #fff; /* White container background */
+    border-radius: 10px; /* Rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #ff4081; /* Pink heading color */
 }
 
 input[type="text"] {
     width: calc(100% - 80px);
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 2px solid #ff4081; /* Pink border */
     border-radius: 5px;
 }
 
 button {
     padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #ff4081; /* Pink button background */
+    color: #fff; /* White text color */
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #ff80ab; /* Lighter pink on hover */
 }
 
 ul {
@@ -47,8 +47,8 @@ ul {
 
 li {
     padding: 10px;
-    background-color: #f9f9f9;
-    border-bottom: 1px solid #ccc;
+    background-color: #fff; /* White task item background */
+    border-bottom: 1px solid #ff4081; /* Pink border bottom */
 }
 
 li:last-child {
